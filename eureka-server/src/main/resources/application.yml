@@ -1,0 +1,17 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: study-eureka-server
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    # 允许自己当做服务注册
+    register-with-eureka: true
+    # 拉取注册信息
+    fetch-registry: true
+
+
